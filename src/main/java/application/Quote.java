@@ -27,7 +27,7 @@ public class Quote {
     @PostMapping("/quote")
     public QuoteResponse score(@RequestBody QuoteRequest request) {
 
-        logger.info("Received request - " + request.toString());
+        logger.info("Vincent ************************************Received request - " + request.toString());
 
         // Build health score request
         HealthScoreRequest hs = new HealthScoreRequest();
